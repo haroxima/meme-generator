@@ -1,0 +1,31 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container img{
+    height: 430px;
+    object-fit: cover;
+}
+
+.container .generate-meme-btn{
+    padding: 8px 20px;
+    border: 0;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color:dodgerblue;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.container .generate-meme-btn:hover{
+    background-color:dodgerblue;
+    color: #fff;
+}
+
+.meme-author{
+    margin: 8px;
+}
